@@ -7,13 +7,13 @@ class Strings {
     "Bambu Palmiyesi",
     "Lavanta",
     "Paşa Kılıcı",
-    "Madagaskar Dragon Ağacı",
     "Afrika Menekşesi",
     "Şeflera",
     "Çin Herdemyeşili",
     "Salon Palmiyesi",
     "Aloe Vera",
-    "Yelken Çiçeği"
+    "Yelken Çiçeği",
+    "Madagaskar Dragon Ağacı"
   ];
 
   static const List<String> BITKI_LATINCE = [
@@ -32,7 +32,7 @@ class Strings {
   ];
 
   static const List<String> BITKI_OZELLIKLERI = [
-    "\n"
+    "\n" //KURDELE ÇİÇEĞİ
         "\t Işık ihtiyacı: Yarı Güneşli yerler\n\n"
         "\t Su ihtiyacı:  Dibi kurudukça biraz biraz sulayın\n\n"
         "\t Uygun sıcaklık:  10-30 derecede mutlu olur, dayanabileceği en düşük sıcaklık 0 derece\n\n"
@@ -44,7 +44,7 @@ class Strings {
         "\t Çok sağuk suyla sulama yapmayın. \n\n"
         "\t Fazla besin vermenize gerek yoktur. İki ayda bir verebilir veya toprağına arada bir yeni toprak ekleyebilirsiniz. \n\n"
         "\t Bakımı kolaydır, çoğu durumu tolere eder. \n\n",
-    "\n"
+    "\n" //DEVE TABANI
         "\t Işık ihtiyacı: Kısıtlı Güneş ışığı veya hafif loş ışık\n\n"
         "\t Su ihtiyacı:  Yazın 2-3 günde bir, kışın 6 günde bir sulayın\n\n"
         "\t Uygun sıcaklık:  21 derece, dayanabileceği en düşük sıcaklık 0 derece\n\n"
@@ -59,7 +59,7 @@ class Strings {
         "\t Rüzgarlı yerleri sevmez..\n\n"
         "\t Zehirlidir, küçük çocukların ve hayvanların yemesini önleyiniz.\n\n"
         "\t Humuslu, torflu iç mekan toprağında besleyebilirsiniz. \n\n",
-    "\n"
+    "\n" //BAMBU PALMİYESİ
         "\t Işık ihtiyacı: Yarı gölge ve gölge yerler\n\n"
         "\t Su ihtiyacı:  Yazın haftada 2, kışın haftada 1\n\n"
         "\t Uygun sıcaklık:  17-26 derece \n\n"
@@ -73,7 +73,7 @@ class Strings {
         "\t Saksı değişimi yaparken bitkinin büyümesinin yavaşlamaması için, köklerin zarar görmemesine dikkat ediniz.  \n\n"
         "\t Zaman zaman büyüteçle yapraklarının altında akar / mayt parazitleri olup olmadığını kontrol edin. \n\n"
         "\t Yaz aylarında haftada bir, kışın en az üç haftada bir duşun altında yapraklarının altına üstüne su fışkırtarak yıkarsanız bitlenmesini engellersiniz.  \n\n",
-    "\n"
+    "\n" //LAVANTA
         "\t Işık ihtiyacı: Güneşli yerler\n\n"
         "\t Su ihtiyacı:  3-5 günde bir, saksının alt deliklerinden su çıkacak şekilde bol sulayın \n\n"
         "\t Uygun sıcaklık:  Dayanabileceği en düşük sıcaklık 10 derece\n\n"
@@ -87,7 +87,7 @@ class Strings {
         "\t Toprağı asitli olmamalıdır. Nötr ve alkalinli toprakları sever. \n\n"
         "\t Biraz humuslu, kumlu, taş kırpıntılı ya da ağır killi olmayan arazi toprağında iyi yetişir.\n\n"
         "\t Akşam ya da gece sulayın.\n\n",
-    "\n"
+    "\n" //PAŞA KILICI
         "\t Işık ihtiyacı: Hem gölge hem Güneşli yerler\n\n"
         "\t Su ihtiyacı:  Toprak yarıya yakın kuruduğunda sulayın\n\n"
         "\t Uygun sıcaklık:  Dayanabileceği en düşük sıcaklık - 3 derece\n"
@@ -100,30 +100,7 @@ class Strings {
         "\t Çok derin olmayan, yayvan saksı kullabilirsiniz. \n\n"
         "\t Humuslu ve havadar  toprağı sever, poşetlerde satılan hazır lifli topraklardan alıp biraz ponza taşı karıştırabilirsiniz.\n\n"
         "\t Genel besinlerden, ilkbaharda ve sonbaharda verebilirsiniz. \n\n",
-    "\n"
-        "\t Işık ihtiyacı: Güneşli\n\n"
-        "\t Su ihtiyacı:  Dibi kurudukça sulayın\n\n"
-        "\t Uygun sıcaklık:  20-25 derece, dayanabileceği en düşük sıcaklık -3 derece\n\n"
-        "\t Yaprak dökme özelliği:  Yaprak dökmez\n\n"
-        "\t Formlu yetişme boyu: 5 metre \n\n"
-        "\t Budama zamanı ve şekli:  Eğer isterseniz eski yapraklarını en alttan başlayarak tek tek alabilirsiniz.\n\n"
-        "\t Çoğaltma: Dalların yapraksız kısımlarını 15-20cm gibi parçalara bölün. Kesik yerlerin kuruması için bekletin. Sonra 4-5 gün suda bekletin. Kumlu toprağa dikin ve sulayın. Yapraklı tepe dallarından da benzer şekilde çoğaltabilirsiniz.\n\n"
-        "\t Tavsiyeler & Ek bilgiler: Sulamalarda saksının alt deliklerden su dışarı çıkmalıdır\n\n"
-        "\t Sigaranın havaya dağılan kalıntılarını, duvar boyalarından yayılan kimyasalları ve egzoz kalıntılarını temizler. \n\n"
-        "\t Yapraklarının matlaşmaması için ayda bir iki defa yıkayabilirsiniz.\n\n"
-        "\t Köklerin zor sığacağı büyüklükte saksı kullanın.\n\n",
-    "\n"
-        "\t Işık ihtiyacı: Yarı Güneşli yerler\n"
-        "\t Su ihtiyacı: Dibi kurudukça sulayın\n"
-        "\t Uygun sıcaklık: dayanabileceği en düşük sıcaklık değeri - 20 derece\n\n"
-        "\t Yaprak dökme özelliği : Kışın yaprak dökmez\n\n"
-        "\t Formlu yetişme boyu : 40 cm\n\n"
-        "\t Budama zamanı ve şekli:  Bir seneden önce fidana budama yapmayın. Bir yıl sonra istediğiniz şekilde budayabiliriz.\n\n"
-        "\t Tavsiyeler & Ek bilgiler: İlkbahardan sonbahara kadar çiçeklenme dönemidir.\n\n"
-        "\t Her tür toprağa dikilebilir. Önemli olan vitamin ve mineralin zamanı geldiğinde dibine atılmasıdır.\n\n"
-        "\t Cam önünde perdenin arkasına yerleştirebilirsiniz.\n\n"
-        "\t Toprakla buluşturmadan önce bolca sulayın. Fidan dikim çukuru ne kadar büyük olursa fidanlar da o kadar hızlı büyürler. \n\n",
-    "\n"
+    "\n" //AFRİKA MENEKŞESİ
         "\t Işık ihtiyacı: Güçlü gün ışığı\n\n"
         "\t Su ihtiyacı:  Haftada bir, çok sıcak aylarda haftada 3-4 kez\n\n"
         "\t Uygun sıcaklık:  18-24 derece, dayanabileceği en düşük sıcaklık - 20 derece\n"
@@ -136,7 +113,7 @@ class Strings {
         "\t Bakımı kolaydır. \n\n"
         "\t Sabah erken saatlerde birkaç saat veya Güneş'in batmasına bir saat kala direkt Güneş alabilir. Diğer zamanlarda, özellikle kış haricinde direkt Güneş ışığı almamalıdır. \n\n"
         "\t Çok havadar, sık sulamaya uygun toprak sever. Toprağına gübre ve özel besleyici katmayın. \n\n",
-    "\n"
+    "\n" //ŞEFLERA
         "\t Işık ihtiyacı: Aydınlık yerler\n\n"
         "\t Su ihtiyacı:  Toprağı biraz nem kaybettikçe , az miktarda sulayın \n\n"
         "\t Uygun sıcaklık:  Dayanabileceği en düşük sıcaklık - 7 derece\n\n"
@@ -147,7 +124,7 @@ class Strings {
         "\t Tavsiyeler & Ek bilgiler:  İki yılda bir saksını değiştirmeniz iyi olur.\n\n"
         "\t Hazır poşet toprak kullanacaksanız kış haricinde her üç sulamada bir bitki besini karıştırılmış su ile sulamalısınız.  \n\n"
         "\t Yaşadığınız yerin havası çok kuru ve çok sıcaksa gelişim zamanlarında hava nemliliğini arttırmanız iyi olur. \n\n",
-    "\n"
+    "\n" //ÇİN HERDEMYEŞİLİ
         "\t Işık ihtiyacı: Aydınlık ve gölge yerler\n\n"
         "\tSu ihtiyacı:  Toprağın yarısı kuruduğunda sulayın \n\n"
         "\t Uygun sıcaklık:  16-29 derece\n\n"
@@ -158,7 +135,7 @@ class Strings {
         "\t Tavsiyeler & Ek bilgiler:  Hazır poşet topraklar Aglaonema modestum’un sorunsuz gelişmesi için yeterlidir.\n\n"
         "\t Saksı değişim işlemi iki yılda bir yapılabilir. Saksının boyutu ancak bir ya da iki boy büyük olmalı. Saksı değişimi ilkbaharda yapılmalıdır. Saksısı alçak ve geniş olduğunda daha şık bir görünüm oluşur.\n\n"
         "\t Havasız, loş ışıklı köşelerde bile sağlıklı kalabilir. Ama en güzel gelişimi Güneşli pencere önünde olur.\n\n",
-    "\n"
+    "\n" //SALON PALMİYESİ
         "\t Işık ihtiyacı: Aydınlık yerler\n\n"
         "\t Su ihtiyacı:  Dibi kurudukça az miktarda sulayın \n\n"
         "\t Uygun sıcaklık: Dayanabileceği en düşük sıcaklık - 5 derece\n\n"
@@ -171,7 +148,7 @@ class Strings {
         "\t Kışı ısıtıcı kullanılmayan bir odada geçirmesi daha iyi olur.  \n\n"
         "\t Torf ismiyle satılan salon bitkileri için olan hazır poşet topraklardan kullanabilirsiniz. Bu toprağa ponza taşı karıştırmanız iyi olur. \n\n"
         "\t Yeni satın aldığınız zaman toprak miktarının beş on misli miktarı su ile yavaş yavaş sulayarak toprağının yıkanmasını sağlarsanız, toprakta büyük ihtimalle var olan tuzluluk çözünerek gider. \n\n",
-    "\n"
+    "\n" //ALOE VERA
         "\t Işık ihtiyacı: Güneşli\n\n"
         "\t Su ihtiyacı:  Yazın üstü kurudukça, kışın toprak kupkuru olduğunda sulayın \n\n"
         "\t Uygun sıcaklık: Dayanabileceği en düşük sıcaklık - 7 derece\n\n"
@@ -184,7 +161,7 @@ class Strings {
         "\t Vitamin ve mineral açısından zengin bir bitkidir. A, B1, B2, B3, B6, C, E vitaminlerini içerir. Ayrıca B12 vitamini açısından da iyi bir kaynaktır. Aloe vera folik asit, kalsiyum, magnezyum, çinko, selenyum, demir, krom, sodyum, potasyum, manganez ve bakır minerallerini içeren bir bitkidir. \n\n"
         "\t İlkbahardan sonbahara kadar, ayda bir genel amaçlı bitki besini, kaktüs besini ve orkide besini verebilirsiniz. \n\n"
         "\t Büyük saksıya gerek yoktur. \n\n",
-    "\n"
+    "\n" //YELKEN ÇİÇEĞİ
         "\t Işık ihtiyacı: Güneşli, yarı güneşli yerler\n\n"
         "\t Su ihtiyacı:  Dibi kurudukça, yazın 3 günde bir sulayın \n\n"
         "\t Uygun sıcaklık: Dayanabileceği en düşük sıcaklık 0 derece\n\n"
@@ -201,5 +178,17 @@ class Strings {
         "\t Her üç veya dört sulamada bir bitki besini verin. Genel kullanım, yaprak amaçlı, afrika menekşesi besini ve orkide besini uygundur.  \n\n"
         "\t Besinlerin oluşturduğu baz, tuz vb maddelerin birikip sağlığını bozmaması için 1,5 – 2 ayda bir bol su ile toprak yıkaması yapın. \n\n"
         "\t Saksı büyüklüğü köklerin zor sığacağı büyüklükte olmalı.  En erken 3 yılda bir, en geç 12 yılda bir saksını değiştirin.\n\n",
+    "\n" //MADAGASKAR DRAGON AĞACI
+        "\t Işık ihtiyacı: Güneşli\n\n"
+        "\t Su ihtiyacı:  Dibi kurudukça sulayın\n\n"
+        "\t Uygun sıcaklık:  20-25 derece, dayanabileceği en düşük sıcaklık -3 derece\n\n"
+        "\t Yaprak dökme özelliği:  Yaprak dökmez\n\n"
+        "\t Formlu yetişme boyu: 5 metre \n\n"
+        "\t Budama zamanı ve şekli:  Eğer isterseniz eski yapraklarını en alttan başlayarak tek tek alabilirsiniz.\n\n"
+        "\t Çoğaltma: Dalların yapraksız kısımlarını 15-20cm gibi parçalara bölün. Kesik yerlerin kuruması için bekletin. Sonra 4-5 gün suda bekletin. Kumlu toprağa dikin ve sulayın. Yapraklı tepe dallarından da benzer şekilde çoğaltabilirsiniz.\n\n"
+        "\t Tavsiyeler & Ek bilgiler: Sulamalarda saksının alt deliklerden su dışarı çıkmalıdır\n\n"
+        "\t Sigaranın havaya dağılan kalıntılarını, duvar boyalarından yayılan kimyasalları ve egzoz kalıntılarını temizler. \n\n"
+        "\t Yapraklarının matlaşmaması için ayda bir iki defa yıkayabilirsiniz.\n\n"
+        "\t Köklerin zor sığacağı büyüklükte saksı kullanın.\n\n",
   ];
 }

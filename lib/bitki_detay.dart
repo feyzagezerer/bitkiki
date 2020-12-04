@@ -27,8 +27,11 @@ class BitkiDetay extends StatelessWidget {
               background: Image.asset("images/" + secilenBitki.bitkiFotograf,
                   fit: BoxFit.cover),
               title: Text(" " + secilenBitki.bitkiAdi + " ",
-                  textAlign: TextAlign.end,
-                  style: TextStyle(fontSize: 20, color: Colors.black)),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      backgroundColor: Colors.green)),
             ),
           ),
           SliverToBoxAdapter(
